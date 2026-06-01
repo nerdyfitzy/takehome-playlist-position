@@ -1,7 +1,6 @@
 # Take-Home: Playlist Track-Position
 
-Welcome, and thanks for taking the time to work on this. This is a small,
-self-contained backend service. Plan for roughly **2–3 hours**.
+Welcome, and thanks for taking the time to work on this. This is a small, self-contained React + TypeScript app. The assignment is designed to take around 2 hours, with a maximum recommended time of 3 hours, so please avoid spending significantly more time than that.
 
 ## The product
 
@@ -76,8 +75,7 @@ Your job: make the service report each track's correct, current position.
 3. Make the full test suite pass (`npm test`).
 
 We care more about _how_ you reason about the data than about lines of code.
-A short note (a few sentences in `SOLUTION.md` or your PR description) on each
-root cause and why you fixed it the way you did goes a long way.
+Use the `pr_description_template.md` file to explain your solution. The template already includes sections for user-facing and team-facing messages, which will be used to evaluate your communication skills.
 
 ## Getting started
 
@@ -129,3 +127,16 @@ npm run data   # print the snapshots table (playlist contents over time)
 npm test       # run the acceptance suite
 npm run dev    # start the service with reload
 ```
+
+## Submission Instructions
+
+1. Fork this repository.
+2. Complete the assignment in your own fork.
+3. Open a pull request with your completed solution.
+4. Use the `pr_description_template.md` file for your PR description.
+   - Explain the root cause and your solution.
+   - Include the customer-facing follow-up message requested in the template.
+   - Include the team-facing message requested in the template.
+5. Email the GitHub link to your pull request to hiring@chartmetric.com with the subject line:
+
+   `[Your Name - Customer Success Engineer] Take-Home Assignment`
