@@ -1,6 +1,6 @@
 # Take-Home: Playlist Track-Position
 
-Welcome, and thanks for taking the time to work on this. This is a small, self-contained React + TypeScript app. The assignment is designed to take around 2 hours, with a maximum recommended time of 3 hours, so please avoid spending significantly more time than that.
+Welcome, and thanks for taking the time to work on this. This is a small, self-contained Node + TypeScript backend service (Express, backed by an in-memory SQLite database). The assignment is designed to take around 2 hours, with a maximum recommended time of 3 hours, so please avoid spending significantly more time than that.
 
 ## The product
 
@@ -60,7 +60,7 @@ database:
 open `data/seed.sql` to read the schema and rows directly and write a SQL query to get the data that you need from the table. Then to visualize the return of your query you can run:
 
 ```bash
-npm run data   # prints the stored playlist data as a table, straight from the DB
+npm run data   # runs your query and prints the result as a table, straight from the DB
 ```
 
 Work out what each track's current position _should_ be from that data, then
@@ -112,7 +112,7 @@ src/
   queries.ts   # the SQL that powers each endpoint
   server.ts    # builds the express app with the two endpoints
   index.ts     # entry point that starts the server
-  printSnapshots.ts  # `npm run data` — prints the snapshots table
+  printSnapshots.ts  # `npm run data` — write a query here to inspect the table
 test/
   position.test.ts   # the acceptance tests
 ```
@@ -123,7 +123,7 @@ the seed data, but read them carefully.
 ## Handy commands
 
 ```bash
-npm run data   # print the snapshots table (playlist contents over time)
+npm run data   # run your inspection query and print the result
 npm test       # run the acceptance suite
 npm run dev    # start the service with reload
 ```
